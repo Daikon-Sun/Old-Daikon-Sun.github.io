@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on 孫凡耕</title>
     <link>https://Daikon-Sun.github.io/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on 孫凡耕</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -36,17 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>https://Daikon-Sun.github.io/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/home/skills/</guid>
-      <description></description>
+      <description>Fan-Keng Sun is a research assistant in the Speech Processing and Machine Learning Lab at NTU, under the supervision of Prof. Hung-Yi Lee and Prof. Lin-Shan Lee. He is also a undergraduate researcher in the Electronic Design Automation Lab at NTU, under the supervision of Prof. Yao-Wen Chang.</description>
     </item>
     
     <item>
@@ -68,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Publications</title>
       <link>https://Daikon-Sun.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
@@ -113,13 +103,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title>Custom Section</title>
+      <title>Teaching</title>
       <link>https://Daikon-Sun.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <description></description>
     </item>
     
     <item>
@@ -138,6 +127,18 @@ To remove this section, either delete content/home/teaching.md or edit the front
       
       <guid>https://Daikon-Sun.github.io/home/search/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://Daikon-Sun.github.io/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/home/skills/</guid>
+      <description>Natural Languages: Chinse (natvie), English (TOEFL 109, GRE 326 / 3.5)
+Programming Languages: Python, C/C++, Shell, Javascript, Matlab, LaTeX
+Operating System: Linux (Arch Linux &amp;amp; Ubuntu), Windows
+Deep Learning Libraries: Tensorflow, PyTorch, Keras</description>
     </item>
     
     <item>
