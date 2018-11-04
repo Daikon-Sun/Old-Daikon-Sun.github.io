@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>B-star</title>
-      <link>https://Daikon-Sun.github.io/project/pd_b_star/</link>
+      <title>CTCI</title>
+      <link>https://Daikon-Sun.github.io/project/ctci/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/pd_b_star/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
+      <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
     </item>
     
     <item>
@@ -27,15 +27,6 @@
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legalization</title>
-      <link>https://Daikon-Sun.github.io/project/pd_legalization/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/pd_legalization/</guid>
       <description></description>
     </item>
     
@@ -49,39 +40,25 @@
     </item>
     
     <item>
-      <title>ML final project</title>
-      <link>https://Daikon-Sun.github.io/project/ml_final/</link>
+      <title>Physical Design for Nanometer ICs</title>
+      <link>https://Daikon-Sun.github.io/project/physical_design/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/ml_final/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/physical_design/</guid>
+      <description>Four stages in the flow of Physical Design for Nanometer ICs are included in this project. The four stages are sorted in the order as if in actual design flow:
+1. Fiduccia-Mattheyses heuristic for solving 2-way, balanced VLSI hypergraph partitioning, 
+2. B-star-tree with fast-simulated-annealing for solving fixed-outline floorplan problem, 
+3. Abacus-based Legalizer with exact cost for solving single-cell height legalization, 
+4. Efficient steiner tree construction based on spanning graphs.</description>
     </item>
     
     <item>
-      <title>ML final project</title>
-      <link>https://Daikon-Sun.github.io/project/mpml_final/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/mpml_final/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Partition</title>
-      <link>https://Daikon-Sun.github.io/project/pd_partition/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/pd_partition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playing Alpha-Go on Raspberry Pi</title>
+      <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
       <link>https://Daikon-Sun.github.io/project/pigo/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/pigo/</guid>
-      <description></description>
+      <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
     </item>
     
     <item>
@@ -103,12 +80,12 @@
     </item>
     
     <item>
-      <title>Steiner</title>
-      <link>https://Daikon-Sun.github.io/project/pd_steiner/</link>
+      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</title>
+      <link>https://Daikon-Sun.github.io/project/mpml/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/pd_steiner/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/mpml/</guid>
+      <description>The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem. Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used. Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.</description>
     </item>
     
   </channel>

@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Slither">
+  <meta name="description" content="We survey starting from the original UCB, to improved versions (UCBV, improved-UCB), and end at the state-of-the-art method (EUCBV).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Daikon-Sun.github.io/project/slither/">
+  <link rel="alternate" hreflang="en-us" href="https://Daikon-Sun.github.io/project/mpml/">
 
   
 
@@ -86,14 +86,14 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Daikon-Sun.github.io/project/slither/">
+  <link rel="canonical" href="https://Daikon-Sun.github.io/project/mpml/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="孫凡耕">
-  <meta property="og:url" content="https://Daikon-Sun.github.io/project/slither/">
-  <meta property="og:title" content="Slither | 孫凡耕">
-  <meta property="og:description" content="Slither">
+  <meta property="og:url" content="https://Daikon-Sun.github.io/project/mpml/">
+  <meta property="og:title" content="Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms | 孫凡耕">
+  <meta property="og:description" content="We survey starting from the original UCB, to improved versions (UCBV, improved-UCB), and end at the state-of-the-art method (EUCBV).">
   
   
     
@@ -109,7 +109,7 @@
 
   
 
-  <title>Slither | 孫凡耕</title>
+  <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms | 孫凡耕</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -294,18 +294,113 @@
 
 
 
-  
+
+<div class="article-header d-xl-none">
+  <img src="/project/mpml/featured_hu8b6438f0008bfd05c3af3ec7e46bcbcd_126100_1600x400_fill_q90_box_left_2.png" class="article-banner" itemprop="image" alt="">
+  <span class="article-header-caption">Comparison of UCB-based Algorithms</span>
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</h1>
+
+        
+
+        
+
+<div class="article-metadata">
 
   
   
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Fan-Keng Sun">
+  </span>
   
-<div class="article-container pt-3">
-  <h1 itemprop="name">Slither</h1>
 
-  
-
-  
+  <span class="article-date">
     
+    <meta content="2018-11-03 00:00:00 &#43;0800 CST" itemprop="datePublished">
+    <time datetime="2018-11-03 00:00:00 &#43;0800 CST" itemprop="dateModified">
+      Nov 3, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Fan-Keng Sun">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f&amp;title=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f&amp;title=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms&amp;body=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/project/mpml/featured_hu8b6438f0008bfd05c3af3ec7e46bcbcd_126100_680x500_fill_q90_box_left_2.png" itemprop="image" alt="">
+        <span class="article-header-caption">Comparison of UCB-based Algorithms</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</h1>
+
+  
+
+  
 
 <div class="article-metadata">
 
@@ -340,35 +435,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Slither&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fslither%2f"
+         href="https://twitter.com/intent/tweet?text=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fslither%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fslither%2f&amp;title=Slither"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f&amp;title=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fslither%2f&amp;title=Slither"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f&amp;title=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Slither&amp;body=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fslither%2f">
+         href="mailto:?subject=Solving%20Multi-Armed%20Bandits%20by%20Upper%20Confidence%20Bound%20%28UCB%29%20Algorithms&amp;body=https%3a%2f%2fDaikon-Sun.github.io%2fproject%2fmpml%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -380,7 +475,6 @@
 
 </div>
 
-  
 </div>
 
 
@@ -390,6 +484,31 @@
 
     <div class="article-style" itemprop="articleBody">
       
+
+<p>The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem.
+Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used.
+Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.
+In this paper, we survey starting from the original UCB [1], to improved versions UCBV [2], improved-UCB [3], and end at the state-of-the-art method [4].
+We also introduce the lower bound for a family of algorithms (consistent algorithms defined in [5]) and show the optimality of KL-UCB [6] in special case.</p>
+
+<p>Link to <a href="paper.pdf" target="_blank">paper</a>.</p>
+
+<p>Link to <a href="slides.pdf" target="_blank">slides</a>.</p>
+
+<h4 id="reference">Reference:</h4>
+
+<p>[1] <a href="https://dl.acm.org/citation.cfm?id=599677" target="_blank">Finite-time Analysis of the Multiarmed Bandit Problem</a>, Auer P.; and Cesa-Bianchi N., In <em>Journal of Machine Learning, 2002</em>.</p>
+
+<p>[2] <a href="http://certis.enpc.fr/~audibert/Mes%20articles/TCS08.pdf" target="_blank">Exploration–exploitation tradeoff using variance estimates in multi-armed bandits</a>, Audibert J.-Y.; Munos R.; and Szepesvari C., In <em>Theoretical Computer Science, 2009</em>.</p>
+
+<p>[3] <a href="https://dl.acm.org/citation.cfm?id=1248586" target="_blank">Action elimination and stopping conditions for the multi-armed bandit and reinforcement learning problems</a>, E. Even-Dar; S. Mannor; Y. Mansour, In <em>Journal of Machine Learning Research, 2006</em>.</p>
+
+<p>[4] <a href="https://arxiv.org/pdf/1711.03591.pdf" target="_blank">Efficient-UCBV: An Almost Optimal Algorithm Using Variance Estimates</a>, Mukherjee S.; Naveen K.P.; Sudarsanam N.; Ravindran B., In <em>AAAI Conference on Artificial Intelligence, 2018</em>.</p>
+
+<p>[5] <a href="https://dl.acm.org/citation.cfm?id=2609757" target="_blank">Asymptotically efficient adaptive allocation rules</a>, Lai, Tze Leung; Robbins, Herbert; In <em>Advances in applied mathematics, 1985</em>.</p>
+
+<p>[6] <a href="https://arxiv.org/abs/1102.2490" target="_blank">The KL-UCB algorithm for bounded stochastic bandits and beyond</a>, Aurélien Garivier; Olivier Cappé, In <em>Proceedings of the 24th annual Conference On Learning Theory, 2011</em>.</p>
+
     </div>
 
     
@@ -398,6 +517,8 @@
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tags/ml-dl/">ML &amp; DL</a>
+  
+  <a class="badge badge-light" href="/tags/other/">Other</a>
   
 </div>
 

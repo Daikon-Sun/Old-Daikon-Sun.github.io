@@ -1,46 +1,24 @@
 [
   {
-    "authors": [
-      "Shun-Yao Shih * ",
-      "**Fan-Keng Sun** * ",
-      "Hung-Yi Lee ( * denotes equal contribution )"
-    ],
-    "categories": null,
-    "content": "",
-    "date": 1541174400,
-    "expirydate": -62135596800,
-    "kind": "page",
-    "lang": "en",
-    "lastmod": 1541174400,
-    "objectID": "be3f6402a7b2745fa4e66e482c780a2e",
-    "permalink": "https://Daikon-Sun.github.io/publication/temporal_pattern_attention/",
-    "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/publication/temporal_pattern_attention/",
-    "section": "publication",
-    "summary": "",
-    "tags": [],
-    "title": "Anonymous Title",
-    "type": "publication"
-  },
-  {
     "authors": null,
     "categories": null,
-    "content": "",
+    "content": "We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.\nLink to our report.\nLink to demo.\n",
     "date": 1541174400,
     "expirydate": -62135596800,
     "kind": "page",
     "lang": "en",
     "lastmod": 1541174400,
-    "objectID": "77f5107ed2dde974204435eb87e0c556",
-    "permalink": "https://Daikon-Sun.github.io/project/pd_b_star/",
+    "objectID": "88b6f6a1e6e2864d503d6af52a547b2d",
+    "permalink": "https://Daikon-Sun.github.io/project/ctci/",
     "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/pd_b_star/",
+    "relpermalink": "/project/ctci/",
     "section": "project",
-    "summary": "B-star",
+    "summary": "CTCI",
     "tags": [
-      "EDA"
+      "ML \u0026 DL",
+      "Other"
     ],
-    "title": "B-star",
+    "title": "CTCI",
     "type": "project"
   },
   {
@@ -73,27 +51,6 @@
     "kind": "page",
     "lang": "en",
     "lastmod": 1541174400,
-    "objectID": "cc624fad4a5a79a6090b7e160569df46",
-    "permalink": "https://Daikon-Sun.github.io/project/pd_legalization/",
-    "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/pd_legalization/",
-    "section": "project",
-    "summary": "Legalization",
-    "tags": [
-      "EDA"
-    ],
-    "title": "Legalization",
-    "type": "project"
-  },
-  {
-    "authors": null,
-    "categories": null,
-    "content": "",
-    "date": 1541174400,
-    "expirydate": -62135596800,
-    "kind": "page",
-    "lang": "en",
-    "lastmod": 1541174400,
     "objectID": "e9399e8eda8b5ade105577b1de6481e1",
     "permalink": "https://Daikon-Sun.github.io/project/luluec/",
     "publishdate": "2018-11-03T00:00:00+08:00",
@@ -109,70 +66,28 @@
   {
     "authors": null,
     "categories": null,
-    "content": "",
+    "content": "Four stages in the flow of Physical Design for Nanometer ICs are included in this project. The four stages are sorted in the order as if in actual design flow:\n1. Fiduccia-Mattheyses heuristic for solving 2-way, balanced VLSI hypergraph partitioning, \n2. B-star-tree with fast-simulated-annealing for solving fixed-outline floorplan problem, \n3. Abacus-based Legalizer with exact cost for solving single-cell height legalization, \n4. Efficient steiner tree construction based on spanning graphs. \nHere is my code in C/C++.\n",
     "date": 1541174400,
     "expirydate": -62135596800,
     "kind": "page",
     "lang": "en",
     "lastmod": 1541174400,
-    "objectID": "53417f361c987d3cb0c1930d60adc075",
-    "permalink": "https://Daikon-Sun.github.io/project/ml_final/",
+    "objectID": "f1fbc2a092a82b6a7810b981935d9d5a",
+    "permalink": "https://Daikon-Sun.github.io/project/physical_design/",
     "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/ml_final/",
+    "relpermalink": "/project/physical_design/",
     "section": "project",
-    "summary": "ML final project",
-    "tags": [
-      "ML \u0026 DL"
-    ],
-    "title": "ML final project",
-    "type": "project"
-  },
-  {
-    "authors": null,
-    "categories": null,
-    "content": "",
-    "date": 1541174400,
-    "expirydate": -62135596800,
-    "kind": "page",
-    "lang": "en",
-    "lastmod": 1541174400,
-    "objectID": "dfa71e89f9f798d09b9a0e840bcd0758",
-    "permalink": "https://Daikon-Sun.github.io/project/mpml_final/",
-    "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/mpml_final/",
-    "section": "project",
-    "summary": "ML final project",
-    "tags": [
-      "ML \u0026 DL"
-    ],
-    "title": "ML final project",
-    "type": "project"
-  },
-  {
-    "authors": null,
-    "categories": null,
-    "content": "",
-    "date": 1541174400,
-    "expirydate": -62135596800,
-    "kind": "page",
-    "lang": "en",
-    "lastmod": 1541174400,
-    "objectID": "c6f7cbbb82f7b7f65c53fbfcc3def45c",
-    "permalink": "https://Daikon-Sun.github.io/project/pd_partition/",
-    "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/pd_partition/",
-    "section": "project",
-    "summary": "Partition",
+    "summary": "Four stages in Physical Design: (1) Partitioning, (2) Floorplanning, (3) Legalization, and (4) Steiner-Tree Construction",
     "tags": [
       "EDA"
     ],
-    "title": "Partition",
+    "title": "Physical Design for Nanometer ICs",
     "type": "project"
   },
   {
     "authors": null,
     "categories": null,
-    "content": "",
+    "content": "We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.\nLink to our report.\nLink to demo.\n",
     "date": 1541174400,
     "expirydate": -62135596800,
     "kind": "page",
@@ -183,12 +98,12 @@
     "publishdate": "2018-11-03T00:00:00+08:00",
     "relpermalink": "/project/pigo/",
     "section": "project",
-    "summary": "Playing Alpha-Go on Raspberry Pi",
+    "summary": "Playing Against AlphaGo Zero on Raspberry Pi",
     "tags": [
       "ML \u0026 DL",
       "Other"
     ],
-    "title": "Playing Alpha-Go on Raspberry Pi",
+    "title": "Playing Against AlphaGo Zero on Raspberry Pi",
     "type": "project"
   },
   {
@@ -236,22 +151,23 @@
   {
     "authors": null,
     "categories": null,
-    "content": "",
+    "content": " The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem. Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used. Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound. In this paper, we survey starting from the original UCB [1], to improved versions UCBV [2], improved-UCB [3], and end at the state-of-the-art method [4]. We also introduce the lower bound for a family of algorithms (consistent algorithms defined in [5]) and show the optimality of KL-UCB [6] in special case.\nLink to paper.\nLink to slides.\nReference: [1] Finite-time Analysis of the Multiarmed Bandit Problem, Auer P.; and Cesa-Bianchi N., In Journal of Machine Learning, 2002.\n[2] Exploration–exploitation tradeoff using variance estimates in multi-armed bandits, Audibert J.-Y.; Munos R.; and Szepesvari C., In Theoretical Computer Science, 2009.\n[3] Action elimination and stopping conditions for the multi-armed bandit and reinforcement learning problems, E. Even-Dar; S. Mannor; Y. Mansour, In Journal of Machine Learning Research, 2006.\n[4] Efficient-UCBV: An Almost Optimal Algorithm Using Variance Estimates, Mukherjee S.; Naveen K.P.; Sudarsanam N.; Ravindran B., In AAAI Conference on Artificial Intelligence, 2018.\n[5] Asymptotically efficient adaptive allocation rules, Lai, Tze Leung; Robbins, Herbert; In Advances in applied mathematics, 1985.\n[6] The KL-UCB algorithm for bounded stochastic bandits and beyond, Aurélien Garivier; Olivier Cappé, In Proceedings of the 24th annual Conference On Learning Theory, 2011.\n",
     "date": 1541174400,
     "expirydate": -62135596800,
     "kind": "page",
     "lang": "en",
     "lastmod": 1541174400,
-    "objectID": "eaf475fd4c2ec77db25002d815be0956",
-    "permalink": "https://Daikon-Sun.github.io/project/pd_steiner/",
+    "objectID": "ceac859edee45667522e3472b1e974ab",
+    "permalink": "https://Daikon-Sun.github.io/project/mpml/",
     "publishdate": "2018-11-03T00:00:00+08:00",
-    "relpermalink": "/project/pd_steiner/",
+    "relpermalink": "/project/mpml/",
     "section": "project",
-    "summary": "Steiner",
+    "summary": "We survey starting from the original UCB, to improved versions (UCBV, improved-UCB), and end at the state-of-the-art method (EUCBV).",
     "tags": [
-      "EDA"
+      "ML \u0026 DL",
+      "Other"
     ],
-    "title": "Steiner",
+    "title": "Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms",
     "type": "project"
   },
   {
@@ -295,6 +211,29 @@
     "permalink": "https://Daikon-Sun.github.io/publication/wirelength_model/",
     "publishdate": "2018-11-02T00:00:00+08:00",
     "relpermalink": "/publication/wirelength_model/",
+    "section": "publication",
+    "summary": "",
+    "tags": [],
+    "title": "Anonymous Title",
+    "type": "publication"
+  },
+  {
+    "authors": [
+      "Shun-Yao Shih * ",
+      "**Fan-Keng Sun** * ",
+      "Hung-Yi Lee ( * denotes equal contribution )"
+    ],
+    "categories": null,
+    "content": "",
+    "date": 1538496000,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1538496000,
+    "objectID": "be3f6402a7b2745fa4e66e482c780a2e",
+    "permalink": "https://Daikon-Sun.github.io/publication/temporal_pattern_attention/",
+    "publishdate": "2018-10-03T00:00:00+08:00",
+    "relpermalink": "/publication/temporal_pattern_attention/",
     "section": "publication",
     "summary": "",
     "tags": [],

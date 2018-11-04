@@ -11,21 +11,21 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Anonymous Title</title>
-      <link>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</link>
+      <title>CTCI</title>
+      <link>https://Daikon-Sun.github.io/project/ctci/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>B-star</title>
-      <link>https://Daikon-Sun.github.io/project/pd_b_star/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/pd_b_star/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
+      <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
+An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
+If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
+Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
+A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,15 +34,6 @@
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legalization</title>
-      <link>https://Daikon-Sun.github.io/project/pd_legalization/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/pd_legalization/</guid>
       <description></description>
     </item>
     
@@ -56,39 +47,42 @@
     </item>
     
     <item>
-      <title>ML final project</title>
-      <link>https://Daikon-Sun.github.io/project/ml_final/</link>
+      <title>Physical Design for Nanometer ICs</title>
+      <link>https://Daikon-Sun.github.io/project/physical_design/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/ml_final/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/physical_design/</guid>
+      <description>&lt;p&gt;Four stages in the flow of Physical Design for Nanometer ICs are included in this project.
+The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 1. Fiduccia-Mattheyses heuristic for solving 2-way, balanced VLSI hypergraph partitioning, &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 2. B-star-tree with fast-simulated-annealing for solving fixed-outline floorplan problem, &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 3. Abacus-based Legalizer with exact cost for solving single-cell height legalization, &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 4. Efficient steiner tree construction based on spanning graphs. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is my &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; in C/C++.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>ML final project</title>
-      <link>https://Daikon-Sun.github.io/project/mpml_final/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/mpml_final/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Partition</title>
-      <link>https://Daikon-Sun.github.io/project/pd_partition/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/pd_partition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playing Alpha-Go on Raspberry Pi</title>
+      <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
       <link>https://Daikon-Sun.github.io/project/pigo/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/pigo/</guid>
-      <description></description>
+      <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
+An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
+If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
+Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
+A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -110,12 +104,37 @@
     </item>
     
     <item>
-      <title>Steiner</title>
-      <link>https://Daikon-Sun.github.io/project/pd_steiner/</link>
+      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</title>
+      <link>https://Daikon-Sun.github.io/project/mpml/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/pd_steiner/</guid>
-      <description></description>
+      <guid>https://Daikon-Sun.github.io/project/mpml/</guid>
+      <description>
+
+&lt;p&gt;The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem.
+Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used.
+Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.
+In this paper, we survey starting from the original UCB [1], to improved versions UCBV [2], improved-UCB [3], and end at the state-of-the-art method [4].
+We also introduce the lower bound for a family of algorithms (consistent algorithms defined in [5]) and show the optimality of KL-UCB [6] in special case.&lt;/p&gt;
+
+&lt;p&gt;Link to &lt;a href=&#34;paper.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;reference&#34;&gt;Reference:&lt;/h4&gt;
+
+&lt;p&gt;[1] &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=599677&#34; target=&#34;_blank&#34;&gt;Finite-time Analysis of the Multiarmed Bandit Problem&lt;/a&gt;, Auer P.; and Cesa-Bianchi N., In &lt;em&gt;Journal of Machine Learning, 2002&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&#34;http://certis.enpc.fr/~audibert/Mes%20articles/TCS08.pdf&#34; target=&#34;_blank&#34;&gt;Exploration–exploitation tradeoff using variance estimates in multi-armed bandits&lt;/a&gt;, Audibert J.-Y.; Munos R.; and Szepesvari C., In &lt;em&gt;Theoretical Computer Science, 2009&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=1248586&#34; target=&#34;_blank&#34;&gt;Action elimination and stopping conditions for the multi-armed bandit and reinforcement learning problems&lt;/a&gt;, E. Even-Dar; S. Mannor; Y. Mansour, In &lt;em&gt;Journal of Machine Learning Research, 2006&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[4] &lt;a href=&#34;https://arxiv.org/pdf/1711.03591.pdf&#34; target=&#34;_blank&#34;&gt;Efficient-UCBV: An Almost Optimal Algorithm Using Variance Estimates&lt;/a&gt;, Mukherjee S.; Naveen K.P.; Sudarsanam N.; Ravindran B., In &lt;em&gt;AAAI Conference on Artificial Intelligence, 2018&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[5] &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=2609757&#34; target=&#34;_blank&#34;&gt;Asymptotically efficient adaptive allocation rules&lt;/a&gt;, Lai, Tze Leung; Robbins, Herbert; In &lt;em&gt;Advances in applied mathematics, 1985&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[6] &lt;a href=&#34;https://arxiv.org/abs/1102.2490&#34; target=&#34;_blank&#34;&gt;The KL-UCB algorithm for bounded stochastic bandits and beyond&lt;/a&gt;, Aurélien Garivier; Olivier Cappé, In &lt;em&gt;Proceedings of the 24th annual Conference On Learning Theory, 2011&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -133,6 +152,15 @@
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/publication/wirelength_model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anonymous Title</title>
+      <link>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</guid>
       <description></description>
     </item>
     
