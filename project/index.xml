@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>孫凡耕 on 孫凡耕</title>
-    <link>https://Daikon-Sun.github.io/</link>
-    <description>Recent content in 孫凡耕 on 孫凡耕</description>
+    <title>Projects on 孫凡耕</title>
+    <link>https://Daikon-Sun.github.io/project/</link>
+    <description>Recent content in Projects on 孫凡耕</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0800</lastBuildDate>
     
-    <item>
-      <title>Anonymous Title</title>
-      <link>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</guid>
-      <description></description>
-    </item>
+	<atom:link href="https://Daikon-Sun.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>B-star</title>
@@ -115,33 +108,6 @@
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/pd_steiner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anonymous Title</title>
-      <link>https://Daikon-Sun.github.io/publication/bus_routing/</link>
-      <pubDate>Fri, 02 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/publication/bus_routing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anonymous Title</title>
-      <link>https://Daikon-Sun.github.io/publication/wirelength_model/</link>
-      <pubDate>Fri, 02 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/publication/wirelength_model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Multithreaded Initial Detailed Routing Algorithm Considering Global Routing Guides</title>
-      <link>https://Daikon-Sun.github.io/publication/detailed_routing/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/publication/detailed_routing/</guid>
       <description></description>
     </item>
     
