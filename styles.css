@@ -702,6 +702,12 @@ article {
   box-sizing: border-box;
 }
 
+/* Prevent FA's line height of 1 causing FA button links to be taller than other button links. */
+.btn-links .fab,
+.btn-links .fas {
+  line-height: inherit !important;
+}
+
 .split-header-image {
   position: relative; /* Required for caption positioning */
   clear: both;
@@ -965,7 +971,7 @@ article .article-metadata {
   line-height: 30px; /* Match share bar line height. */
 }
 
-.pub .pub-row-heading {
+.pub-row-heading {
   font-weight: bold;
 }
 
@@ -991,7 +997,7 @@ article .article-metadata {
   color: rgba(255,255,255,0.54);
 }
 
-.pub-list-item .pub-links {
+.pub-list-item .btn-links {
   padding-top: 10px;
 }
 
@@ -1090,6 +1096,14 @@ article .article-metadata {
 
 .project-item {
   margin-bottom: 1.5rem;
+}
+
+.project-showcase .project-item {
+  margin-bottom: 3rem;
+}
+
+.project-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .isotope-item {
