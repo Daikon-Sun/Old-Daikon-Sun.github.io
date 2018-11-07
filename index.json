@@ -15,7 +15,6 @@
     "section": "project",
     "summary": "CTCI",
     "tags": [
-      "ML \u0026 DL",
       "Other"
     ],
     "title": "CTCI",
@@ -100,8 +99,7 @@
     "section": "project",
     "summary": "Playing Against AlphaGo Zero on Raspberry Pi",
     "tags": [
-      "ML \u0026 DL",
-      "Other"
+      "ML and DL"
     ],
     "title": "Playing Against AlphaGo Zero on Raspberry Pi",
     "type": "project"
@@ -122,7 +120,7 @@
     "section": "project",
     "summary": "Revisit CNN history",
     "tags": [
-      "ML \u0026 DL"
+      "ML and DL"
     ],
     "title": "Revisit CNN history",
     "type": "project"
@@ -143,7 +141,7 @@
     "section": "project",
     "summary": "Slither",
     "tags": [
-      "ML \u0026 DL"
+      "ML and DL"
     ],
     "title": "Slither",
     "type": "project"
@@ -164,10 +162,30 @@
     "section": "project",
     "summary": "We survey starting from the original UCB, to improved versions (UCBV, improved-UCB), and end at the state-of-the-art method (EUCBV).",
     "tags": [
-      "ML \u0026 DL",
-      "Other"
+      "ML and DL"
     ],
     "title": "Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": "We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.\nLink to our report.\nLink to demo.\n",
+    "date": 1541174400,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541174400,
+    "objectID": "c74b331458271f615c40eea6a7954927",
+    "permalink": "https://Daikon-Sun.github.io/project/vfx/",
+    "publishdate": "2018-11-03T00:00:00+08:00",
+    "relpermalink": "/project/vfx/",
+    "section": "project",
+    "summary": "VFX",
+    "tags": [
+      "Other"
+    ],
+    "title": "VFX",
     "type": "project"
   },
   {

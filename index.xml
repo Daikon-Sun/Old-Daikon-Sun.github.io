@@ -138,6 +138,24 @@ We also introduce the lower bound for a family of algorithms (consistent algorit
     </item>
     
     <item>
+      <title>VFX</title>
+      <link>https://Daikon-Sun.github.io/project/vfx/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/vfx/</guid>
+      <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
+An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
+If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
+Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
+A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Anonymous Title</title>
       <link>https://Daikon-Sun.github.io/publication/bus_routing/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0800</pubDate>

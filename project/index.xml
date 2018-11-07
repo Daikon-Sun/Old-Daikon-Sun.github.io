@@ -88,5 +88,14 @@
       <description>The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem. Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used. Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.</description>
     </item>
     
+    <item>
+      <title>VFX</title>
+      <link>https://Daikon-Sun.github.io/project/vfx/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/vfx/</guid>
+      <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
+    </item>
+    
   </channel>
 </rss>
