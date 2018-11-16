@@ -48,14 +48,18 @@ We had also learned the most commonly appeared 200 features from the dataset and
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description>&lt;p&gt;In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.
-First, the program parse a circuit description file in the AIGER format.
-Next, sweep out the gates that cannot be reached from primary outputs (excluding primary inputs).
-After this operation, all the gates that are originally “defined-but-not-used” will be deleted.
-Then, perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.
-Furthermore, perform structural hash to merge the structurally equivalent signals (i.e. replace a gate with its functionally equivalent one) by comparing their gate types and permuting their inputs.
-Last but not least, the program simulates boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.
-Finally, use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.&lt;/p&gt;
+      <description>&lt;p&gt;In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.&lt;/p&gt;
+
+&lt;p&gt;The program performs the following processes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Parse a circuit description file in the AIGER format.&lt;/li&gt;
+&lt;li&gt;Sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted.&lt;/li&gt;
+&lt;li&gt;Perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.&lt;/li&gt;
+&lt;li&gt;Perform structural hash to merge the structurally equivalent signals (i.e. replace a gate with its functionally equivalent one) by comparing their gate types and permuting their inputs.&lt;/li&gt;
+&lt;li&gt;Simulate boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.&lt;/li&gt;
+&lt;li&gt;Use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;My program ranks top 5% among more than a hundred of students.&lt;/p&gt;
 
@@ -115,10 +119,10 @@ The following feature-based process is run through in the order to create panora
     
     <item>
       <title>LuLuEC</title>
-      <link>https://Daikon-Sun.github.io/project/luluec/</link>
+      <link>https://Daikon-Sun.github.io/luluec/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/luluec/</guid>
+      <guid>https://Daikon-Sun.github.io/luluec/</guid>
       <description></description>
     </item>
     
@@ -163,10 +167,10 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
     
     <item>
       <title>Slither</title>
-      <link>https://Daikon-Sun.github.io/project/slither/</link>
+      <link>https://Daikon-Sun.github.io/slither/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/slither/</guid>
+      <guid>https://Daikon-Sun.github.io/slither/</guid>
       <description></description>
     </item>
     
@@ -206,10 +210,10 @@ We also introduce the lower bound for a family of algorithms (consistent algorit
     
     <item>
       <title>VFX</title>
-      <link>https://Daikon-Sun.github.io/project/vfx_final/</link>
+      <link>https://Daikon-Sun.github.io/vfx_final/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/vfx_final/</guid>
+      <guid>https://Daikon-Sun.github.io/vfx_final/</guid>
       <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
 An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
 If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.

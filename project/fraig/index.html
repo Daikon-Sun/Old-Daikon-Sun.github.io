@@ -520,14 +520,18 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.
-First, the program parse a circuit description file in the AIGER format.
-Next, sweep out the gates that cannot be reached from primary outputs (excluding primary inputs).
-After this operation, all the gates that are originally “defined-but-not-used” will be deleted.
-Then, perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.
-Furthermore, perform structural hash to merge the structurally equivalent signals (i.e. replace a gate with its functionally equivalent one) by comparing their gate types and permuting their inputs.
-Last but not least, the program simulates boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.
-Finally, use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.</p>
+      <p>In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.</p>
+
+<p>The program performs the following processes:</p>
+
+<ul>
+<li>Parse a circuit description file in the AIGER format.</li>
+<li>Sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted.</li>
+<li>Perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.</li>
+<li>Perform structural hash to merge the structurally equivalent signals (i.e. replace a gate with its functionally equivalent one) by comparing their gate types and permuting their inputs.</li>
+<li>Simulate boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.</li>
+<li>Use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.</li>
+</ul>
 
 <p>My program ranks top 5% among more than a hundred of students.</p>
 
