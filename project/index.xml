@@ -13,21 +13,53 @@
     
     
     <item>
-      <title>CTCI</title>
+      <title>AI Traffic Control System</title>
       <link>https://Daikon-Sun.github.io/project/ctci/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
-      <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
+      <description>Due to the high population density and popular usage of private car in Taiwan, traffic jam is a serious problem in Taiwan&amp;rsquo;s major cities, especially Taipei, Tainan, and Kaohsiung. Most traffic jam can be alleviated if all traffic signals are dynamically adjusted and optimized at different location and time period. Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.</description>
     </item>
     
     <item>
-      <title>FRAIG</title>
+      <title>Anime Generation by Generative Adversarial Networks</title>
+      <link>https://Daikon-Sun.github.io/project/anime_gan/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/anime_gan/</guid>
+      <description>Our work includes two stages. In the first stage we trained the Conditional GAN with only hair color and eyes color features. Then, a series of five corresponding anime images is produced. In the second stage, we proceeded further by collecting more features from the dataset, and by feeding more complicated input sentence, desired feature is then learned by Conditional GAN. We were then able to synthesis anime character with glasses or no glasses, along with different hair styles.</description>
+    </item>
+    
+    <item>
+      <title>Functionally Reduced And-Inverter Graph (FRAIG)</title>
       <link>https://Daikon-Sun.github.io/project/fraig/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description></description>
+      <description>In this project, I implemented a special circuit representation, FRAIG, from a circuit description file. First, the program parse a circuit description file in the AIGER format. Next, sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted. Then, perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.</description>
+    </item>
+    
+    <item>
+      <title>High Dynamic Range (HDR) Imaging</title>
+      <link>https://Daikon-Sun.github.io/project/hdr/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/hdr/</guid>
+      <description>We assemble high dynamic range (HDR) images from a series of photographs under various exposures.
+The features we have implemented are:
+ Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  Link to our program.
+Link to our report.</description>
+    </item>
+    
+    <item>
+      <title>Image Stitching (Panorama)</title>
+      <link>https://Daikon-Sun.github.io/project/panorama/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
+      <description>We construct panoramas from a series of photographs. The following feature-based process is run through in the order to create panoramas:
+ Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to our program.
+Link to our report.</description>
     </item>
     
     <item>
@@ -62,15 +94,6 @@
     </item>
     
     <item>
-      <title>Revisit CNN history</title>
-      <link>https://Daikon-Sun.github.io/project/cnn-revisit/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/cnn-revisit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Slither</title>
       <link>https://Daikon-Sun.github.io/project/slither/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
@@ -90,11 +113,20 @@
     
     <item>
       <title>VFX</title>
-      <link>https://Daikon-Sun.github.io/project/vfx/</link>
+      <link>https://Daikon-Sun.github.io/project/vfx_final/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/vfx/</guid>
+      <guid>https://Daikon-Sun.github.io/project/vfx_final/</guid>
       <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
+    </item>
+    
+    <item>
+      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models</title>
+      <link>https://Daikon-Sun.github.io/project/cnn_vis/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/cnn_vis/</guid>
+      <description>Introduction Convolutional Neural Network (CNN) was first proposed by Y. LeCun et al. in 1989, who successfully trained a CNN for digit classification. However, not until 2012, when A.Krizhevsky et al. applied this architecture in ILSVRC-2012 competition and won the first place with top-5 error rates of 15.3% (which improves by more than 10% compared to previous feature engineering methods), did CNN take over computer vision. In recent years, the advance of GPU, the availability of much larger training sets, and better model regularization strategies all contribute to the dramatic improvement in performance.</description>
     </item>
     
   </channel>

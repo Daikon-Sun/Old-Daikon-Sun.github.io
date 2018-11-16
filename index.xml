@@ -11,30 +11,106 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>CTCI</title>
+      <title>AI Traffic Control System</title>
       <link>https://Daikon-Sun.github.io/project/ctci/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
-      <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
-An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
-If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
-Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
-A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
+      <description>&lt;p&gt;Due to the high population density and popular usage of private car in Taiwan, traffic jam is a serious problem in Taiwan&amp;rsquo;s major cities, especially Taipei, Tainan, and Kaohsiung.
+Most traffic jam can be alleviated if all traffic signals are dynamically adjusted and optimized at different location and time period.
+Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.
+Our system is effective on simple traffic simulation, and thus won the 2017 National Technology and Research Scholarship presented by CTCI Foundation.&lt;/p&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to our &lt;a href=&#34;http://www.ctci.org.tw/media/4062/2017-%E5%89%B5%E6%84%8F%E7%8D%8E%E5%AD%B8%E9%87%912-10.jpg&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>FRAIG</title>
+      <title>Anime Generation by Generative Adversarial Networks</title>
+      <link>https://Daikon-Sun.github.io/project/anime_gan/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/anime_gan/</guid>
+      <description>&lt;p&gt;Our work includes two stages.
+In the first stage we trained the Conditional GAN with only hair color and eyes color features.
+Then, a series of five corresponding anime images is produced.
+In the second stage, we proceeded further by collecting more features from the dataset, and by feeding more complicated input sentence, desired feature is then learned by Conditional GAN.
+We were then able to synthesis anime character with glasses or no glasses, along with different hair styles.
+We had also learned the most commonly appeared 200 features from the dataset and generated relevant images.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Functionally Reduced And-Inverter Graph (FRAIG)</title>
       <link>https://Daikon-Sun.github.io/project/fraig/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.
+First, the program parse a circuit description file in the AIGER format.
+Next, sweep out the gates that cannot be reached from primary outputs (excluding primary inputs).
+After this operation, all the gates that are originally “defined-but-not-used” will be deleted.
+Then, perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.
+Furthermore, perform structural hash to merge the structurally equivalent signals (i.e. replace a gate with its functionally equivalent one) by comparing their gate types and permuting their inputs.
+Last but not least, the program simulates boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.
+Finally, use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.&lt;/p&gt;
+
+&lt;p&gt;My program ranks top 5% among more than a hundred of students.&lt;/p&gt;
+
+&lt;p&gt;Link to my &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to my &lt;a href=&#34;presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High Dynamic Range (HDR) Imaging</title>
+      <link>https://Daikon-Sun.github.io/project/hdr/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/hdr/</guid>
+      <description>&lt;p&gt;We assemble high dynamic range (HDR) images from a series of photographs under various exposures.&lt;/p&gt;
+
+&lt;p&gt;The features we have implemented are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Image alignment: median threshold bitmap algorithm.&lt;/li&gt;
+&lt;li&gt;HDR imaging: Paul Debevec&amp;rsquo;s method.&lt;/li&gt;
+&lt;li&gt;Tone mapping: Erik Reinhard&amp;rsquo;s method.&lt;/li&gt;
+&lt;li&gt;Exposure fusion: Tom Mertens&amp;rsquo; method.&lt;/li&gt;
+&lt;li&gt;Blob removal: rule-based method.&lt;/li&gt;
+&lt;li&gt;Ghost removal: EA Khan&amp;rsquo;s method.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw1&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Stitching (Panorama)</title>
+      <link>https://Daikon-Sun.github.io/project/panorama/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
+      <description>&lt;p&gt;We construct panoramas from a series of photographs.
+The following feature-based process is run through in the order to create panoramas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search.&lt;/li&gt;
+&lt;li&gt;Feature matching: exhaustive search and Haar’s method.&lt;/li&gt;
+&lt;li&gt;Projection: cylindrical projection.&lt;/li&gt;
+&lt;li&gt;Image stitching: bundle adjustment.&lt;/li&gt;
+&lt;li&gt;Blending: multi-band blending.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -63,7 +139,7 @@ The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 4. Efficient steiner tree construction based on spanning graphs. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Here is my &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; in C/C++.&lt;/p&gt;
+&lt;p&gt;Here is my &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; (including reports).&lt;/p&gt;
 </description>
     </item>
     
@@ -83,15 +159,6 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
 
 &lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Revisit CNN history</title>
-      <link>https://Daikon-Sun.github.io/project/cnn-revisit/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/project/cnn-revisit/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -139,10 +206,10 @@ We also introduce the lower bound for a family of algorithms (consistent algorit
     
     <item>
       <title>VFX</title>
-      <link>https://Daikon-Sun.github.io/project/vfx/</link>
+      <link>https://Daikon-Sun.github.io/project/vfx_final/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/vfx/</guid>
+      <guid>https://Daikon-Sun.github.io/project/vfx_final/</guid>
       <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
 An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
 If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
@@ -152,6 +219,36 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
 &lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models</title>
+      <link>https://Daikon-Sun.github.io/project/cnn_vis/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/cnn_vis/</guid>
+      <description>
+
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;Convolutional Neural Network (CNN) was first proposed by Y. LeCun et al. in 1989, who successfully trained a CNN for digit classification.
+However, not until 2012, when A.Krizhevsky et al. applied this architecture in ILSVRC-2012 competition and won the first place with top-5 error rates of 15.3% (which improves by more than 10% compared to previous feature engineering methods), did CNN take over computer vision.
+In recent years, the advance of GPU, the availability of much larger training sets, and better model regularization strategies all contribute to the dramatic improvement in performance.
+Nevertheless, on the outset, it was unclear what CNN actually learned and thus cast doubt on the model.
+In this project, we discuss and compare different methods of visualization on various well-known models, in order to gain further sights into the structure and success of CNN.&lt;/p&gt;
+
+&lt;h3 id=&#34;visualization-methods&#34;&gt;Visualization Methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Activity: Visualize the output of a neuron for a given image.&lt;/li&gt;
+&lt;li&gt;Deconvolutional Network: Reconstruct the input image from a given neuron by unpooling, ReLu and deconvolution (transpose convolution).&lt;/li&gt;
+&lt;li&gt;Saliency Map: Calculate the gradient of a score model for a class with respect to the input image.&lt;/li&gt;
+&lt;li&gt;Deep Generator Network (DGN): Use a pretrained image generator instead of hand-crafted priors.&lt;/li&gt;
+&lt;li&gt;Plug-and-Play Generative Networks (PPGN): Improve from DGN using denoising autoencoder to restrict the input-code space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to our &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -179,15 +276,6 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Multithreaded Initial Detailed Routing Algorithm Considering Global Routing Guides</title>
-      <link>https://Daikon-Sun.github.io/publication/detailed_routing/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/publication/detailed_routing/</guid>
       <description></description>
     </item>
     
