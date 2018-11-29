@@ -21,7 +21,7 @@ Most traffic jam can be alleviated if all traffic signals are dynamically adjust
 Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.
 Our system is effective on simple traffic simulation, and thus won the 2017 National Technology and Research Scholarship presented by CTCI Foundation.&lt;/p&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;http://www.ctci.org.tw/media/4062/2017-%E5%89%B5%E6%84%8F%E7%8D%8E%E5%AD%B8%E9%87%912-10.jpg&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;http://www.ctci.org.tw/media/4062/2017-%E5%89%B5%E6%84%8F%E7%8D%8E%E5%AD%B8%E9%87%912-10.jpg&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -38,7 +38,7 @@ In the second stage, we proceeded further by collecting more features from the d
 We were then able to synthesis anime character with glasses or no glasses, along with different hair styles.
 We had also learned the most commonly appeared 200 features from the dataset and generated relevant images.&lt;/p&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -63,9 +63,9 @@ We had also learned the most commonly appeared 200 features from the dataset and
 
 &lt;p&gt;My program ranks top 5% among more than a hundred of students.&lt;/p&gt;
 
-&lt;p&gt;Link to my &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Link to my &lt;a href=&#34;presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -111,9 +111,9 @@ The following feature-based process is run through in the order to create panora
 &lt;li&gt;Blending: multi-band blending.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -143,7 +143,7 @@ The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 4. Efficient steiner tree construction based on spanning graphs. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Here is my &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; (including reports).&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; (including reports).&lt;/p&gt;
 </description>
     </item>
     
@@ -159,9 +159,9 @@ If there is Internet connection, the RPi is connected to a server with GPU, and 
 Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
 A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Link to &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -188,9 +188,9 @@ Since the first paper about UCB [1] came out in 2002, there have been an ongoing
 In this paper, we survey starting from the original UCB [1], to improved versions UCBV [2], improved-UCB [3], and end at the state-of-the-art method [4].
 We also introduce the lower bound for a family of algorithms (consistent algorithms defined in [5]) and show the optimality of KL-UCB [6] in special case.&lt;/p&gt;
 
-&lt;p&gt;Link to &lt;a href=&#34;paper.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;paper.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Link to &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;reference&#34;&gt;Reference:&lt;/h4&gt;
 
@@ -252,7 +252,7 @@ In this project, we discuss and compare different methods of visualization on va
 &lt;li&gt;Plug-and-Play Generative Networks (PPGN): Improve from DGN using denoising autoencoder to restrict the input-code space.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

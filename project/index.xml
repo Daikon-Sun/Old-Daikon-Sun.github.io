@@ -60,8 +60,8 @@ Link to our report.</description>
       
       <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
       <description>We construct panoramas from a series of photographs. The following feature-based process is run through in the order to create panoramas:
- Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to our program.
-Link to our report.</description>
+ Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to the program.
+Link to the report.</description>
     </item>
     
     <item>
