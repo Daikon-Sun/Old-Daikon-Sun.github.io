@@ -11,7 +11,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>AI Traffic Control System</title>
+      <title>AI Traffic Control System [CTCI Scholarship]</title>
       <link>https://Daikon-Sun.github.io/project/ctci/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -280,7 +280,8 @@ In this project, we discuss and compare different methods of visualization on va
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/publication/temporal_pattern_attention/</guid>
-      <description></description>
+      <description>&lt;p&gt;Link to the &lt;a href=&#34;paper.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
