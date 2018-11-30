@@ -26,7 +26,7 @@ Our system is effective on simple traffic simulation, and thus won the 2017 Nati
     </item>
     
     <item>
-      <title>Anime Generation by Generative Adversarial Networks</title>
+      <title>Anime Generation by Generative Adversarial Networks [Poster]</title>
       <link>https://Daikon-Sun.github.io/project/anime_gan/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -43,7 +43,7 @@ We had also learned the most commonly appeared 200 features from the dataset and
     </item>
     
     <item>
-      <title>Functionally Reduced And-Inverter Graph (FRAIG)</title>
+      <title>Functionally Reduced And-Inverter Graph (FRAIG) [Report]</title>
       <link>https://Daikon-Sun.github.io/project/fraig/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -70,7 +70,7 @@ We had also learned the most commonly appeared 200 features from the dataset and
     </item>
     
     <item>
-      <title>High Dynamic Range (HDR) Imaging</title>
+      <title>High Dynamic Range (HDR) Imaging [Code]</title>
       <link>https://Daikon-Sun.github.io/project/hdr/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -95,7 +95,7 @@ We had also learned the most commonly appeared 200 features from the dataset and
     </item>
     
     <item>
-      <title>Image Stitching (Panorama)</title>
+      <title>Image Stitching (Panorama) [Code]</title>
       <link>https://Daikon-Sun.github.io/project/panorama/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -127,7 +127,7 @@ The following feature-based process is run through in the order to create panora
     </item>
     
     <item>
-      <title>Physical Design for Nanometer ICs</title>
+      <title>Physical Design for Nanometer ICs [Code]</title>
       <link>https://Daikon-Sun.github.io/project/physical_design/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -148,7 +148,7 @@ The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
+      <title>Playing Against AlphaGo Zero on Raspberry Pi [Demo]</title>
       <link>https://Daikon-Sun.github.io/project/pigo/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -227,7 +227,7 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
     </item>
     
     <item>
-      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models</title>
+      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models [Poster]</title>
       <link>https://Daikon-Sun.github.io/project/cnn_vis/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
