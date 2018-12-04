@@ -694,12 +694,14 @@ article {
 }
 
 .split-header-content {
-  max-width: 612px;
+  max-width: 1100px;
   width: 100%;
-  padding: 60px 60px 32px 0;
+  padding: 60px 0 32px 0;
   margin-left: auto;
+  margin-right: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /* Prevent FA's line height of 1 causing FA button links to be taller than other button links. */
@@ -709,9 +711,10 @@ article {
 }
 
 .split-header-image {
+  margin-left: auto;
+  margin-right: auto;
   position: relative; /* Required for caption positioning */
   clear: both;
-  max-width: 580px;
 }
 
 .article-header {
