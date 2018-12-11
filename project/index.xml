@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Anime Generation by Generative Adversarial Networks [Poster]</title>
+      <title>Anime Generation by Generative Adversarial Networks</title>
       <link>https://Daikon-Sun.github.io/project/anime_gan/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Functionally Reduced And-Inverter Graph (FRAIG) [Report]</title>
+      <title>Functionally Reduced And-Inverter Graph (FRAIG)</title>
       <link>https://Daikon-Sun.github.io/project/fraig/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -42,30 +42,30 @@ The program performs the following processes:
     </item>
     
     <item>
-      <title>High Dynamic Range (HDR) Imaging [Code]</title>
+      <title>High Dynamic Range (HDR) Imaging</title>
       <link>https://Daikon-Sun.github.io/project/hdr/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/hdr/</guid>
       <description>We assemble high dynamic range (HDR) images from a series of photographs under various exposures.
 The features we have implemented are:
- Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  Link to our program.
+ Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  Link to our code.
 Link to our report.</description>
     </item>
     
     <item>
-      <title>Image Stitching (Panorama) [Code]</title>
+      <title>Image Stitching (Panorama)</title>
       <link>https://Daikon-Sun.github.io/project/panorama/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
       <description>We construct panoramas from a series of photographs. The following feature-based process is run through in the order to create panoramas:
- Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to the program.
+ Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to the code.
 Link to the report.</description>
     </item>
     
     <item>
-      <title>Physical Design for Nanometer ICs [Code]</title>
+      <title>Physical Design for Nanometer ICs</title>
       <link>https://Daikon-Sun.github.io/project/physical_design/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -78,7 +78,7 @@ Link to the report.</description>
     </item>
     
     <item>
-      <title>Playing Against AlphaGo Zero on Raspberry Pi [Demo]</title>
+      <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
       <link>https://Daikon-Sun.github.io/project/pigo/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -87,7 +87,7 @@ Link to the report.</description>
     </item>
     
     <item>
-      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms [Technical Report]</title>
+      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</title>
       <link>https://Daikon-Sun.github.io/project/mpml/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -96,7 +96,7 @@ Link to the report.</description>
     </item>
     
     <item>
-      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models [Poster]</title>
+      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models</title>
       <link>https://Daikon-Sun.github.io/project/cnn_vis/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       

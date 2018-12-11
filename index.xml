@@ -21,12 +21,12 @@ Most traffic jam can be alleviated if all traffic signals are dynamically adjust
 Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.
 Our system is effective on simple traffic simulation, and thus won the 2017 National Technology and Research Scholarship presented by CTCI Foundation.&lt;/p&gt;
 
-&lt;p&gt;Link to the &lt;a href=&#34;http://www.ctci.org.tw/media/4062/2017-%E5%89%B5%E6%84%8F%E7%8D%8E%E5%AD%B8%E9%87%912-10.jpg&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;https://Daikon-Sun.github.io/files/CTCI.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Anime Generation by Generative Adversarial Networks [Poster]</title>
+      <title>Anime Generation by Generative Adversarial Networks</title>
       <link>https://Daikon-Sun.github.io/project/anime_gan/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -43,7 +43,7 @@ We had also learned the most commonly appeared 200 features from the dataset and
     </item>
     
     <item>
-      <title>Functionally Reduced And-Inverter Graph (FRAIG) [Report]</title>
+      <title>Functionally Reduced And-Inverter Graph (FRAIG)</title>
       <link>https://Daikon-Sun.github.io/project/fraig/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -65,12 +65,12 @@ We had also learned the most commonly appeared 200 features from the dataset and
 
 &lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Link to the &lt;a href=&#34;presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>High Dynamic Range (HDR) Imaging [Code]</title>
+      <title>High Dynamic Range (HDR) Imaging</title>
       <link>https://Daikon-Sun.github.io/project/hdr/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -88,14 +88,14 @@ We had also learned the most commonly appeared 200 features from the dataset and
 &lt;li&gt;Ghost removal: EA Khan&amp;rsquo;s method.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw1&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw1&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Image Stitching (Panorama) [Code]</title>
+      <title>Image Stitching (Panorama)</title>
       <link>https://Daikon-Sun.github.io/project/panorama/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -111,7 +111,7 @@ The following feature-based process is run through in the order to create panora
 &lt;li&gt;Blending: multi-band blending.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -127,7 +127,7 @@ The following feature-based process is run through in the order to create panora
     </item>
     
     <item>
-      <title>Physical Design for Nanometer ICs [Code]</title>
+      <title>Physical Design for Nanometer ICs</title>
       <link>https://Daikon-Sun.github.io/project/physical_design/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -148,7 +148,7 @@ The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Playing Against AlphaGo Zero on Raspberry Pi [Demo]</title>
+      <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
       <link>https://Daikon-Sun.github.io/project/pigo/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -175,7 +175,7 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
     </item>
     
     <item>
-      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms [Technical Report]</title>
+      <title>Solving Multi-Armed Bandits by Upper Confidence Bound (UCB) Algorithms</title>
       <link>https://Daikon-Sun.github.io/project/mpml/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
@@ -227,7 +227,7 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
     </item>
     
     <item>
-      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models [Poster]</title>
+      <title>What does Deep CNN learn? Visualization of Popular Deep CNN Models</title>
       <link>https://Daikon-Sun.github.io/project/cnn_vis/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
