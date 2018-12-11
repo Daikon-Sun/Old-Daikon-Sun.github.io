@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on 孫凡耕</title>
+    <title>Homes on Fan-Keng Sun</title>
     <link>https://Daikon-Sun.github.io/home/</link>
-    <description>Recent content in Homes on 孫凡耕</description>
+    <description>Recent content in Homes on Fan-Keng Sun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/home/about/</guid>
-      <description>Fan-Keng Sun is a research assistant in the Speech Processing and Machine Learning Lab at NTU, under the supervision of Prof. Hung-Yi Lee and Prof. Lin-Shan Lee. He is also an undergraduate researcher in the Electronic Design Automation Lab at NTU, under the supervision of Prof. Yao-Wen Chang.
+      <description>Fan-Keng Sun (孫凡耕) is a research assistant in the Speech Processing and Machine Learning Lab at NTU, under the supervision of Prof. Hung-Yi Lee and Prof. Lin-Shan Lee. He is also an undergraduate researcher in the Electronic Design Automation Lab at NTU, under the supervision of Prof. Yao-Wen Chang.
 The main interest of Fan-Keng Sun lies in the intersections of machine learning (ML)/deep learning (DL), electronic design automation (EDA), and combinatorial optimization (CO), especially applying ML/DL algorithm to solve CO problem and its application to EDA.</description>
     </item>
     
