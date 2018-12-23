@@ -1030,7 +1030,7 @@ article .article-metadata {
 .experience .card-text,
 .experience .card-text p {
   color: #000 !important;
-  font-size: 1rem !important;
+  font-size: 0.85rem !important;
 }
 
 .dark .experience .text-muted {
