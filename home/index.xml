@@ -36,7 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/home/about/</guid>
-      <description>My name is Fan-Keng Sun (孫凡耕). I am a research assistant in the Speech Processing and Machine Learning Lab at NTU, under the supervision of Prof. Hung-yi Lee and Prof. Lin-shan Lee. I am also an undergraduate researcher in the Electronic Design Automation Lab at NTU, under the supervision of Prof. Yao-Wen Chang.
+      <description>My name is Fan-Keng Sun (孫凡耕). I am a research assistant in the Speech Processing and Machine Learning Lab at National Taiwan University, under the supervision of Prof. Hung-yi Lee and Prof. Lin-shan Lee. I am also an undergraduate researcher in the Electronic Design Automation Lab at NTU, under the supervision of Prof. Yao-Wen Chang.
 My main interest lies in the intersections of machine learning (ML)/deep learning (DL), combinatorial optimization (CO), and electronic design automation (EDA), especially applying ML/DL algorithm to solve CO problem and its application to EDA.</description>
     </item>
     
@@ -150,7 +150,7 @@ My main interest lies in the intersections of machine learning (ML)/deep learnin
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/home/skills/</guid>
-      <description>Natural Languages: Chinese (native), English (TOEFL 109, GRE 326 / 3.5)
+      <description>Natural Languages: Mandarin Chinese (native), English (TOEFL 109, GRE 326 / 3.5), Taiwanese (native)
 Programming Languages: Python, C/C++, Shell, Javascript, Matlab, LaTeX
 Operating System: Linux (Arch Linux &amp;amp; Ubuntu), Windows
 Deep Learning Libraries: Tensorflow, PyTorch, Keras</description>

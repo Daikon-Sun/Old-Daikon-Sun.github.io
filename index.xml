@@ -13,15 +13,13 @@
     <item>
       <title>AI Traffic Control System [CTCI Scholarship]</title>
       <link>https://Daikon-Sun.github.io/project/ctci/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
       <description>&lt;p&gt;Due to the high population density and popular usage of private car in Taiwan, traffic jam is a serious problem in Taiwan&amp;rsquo;s major cities, especially Taipei, Tainan, and Kaohsiung.
 Most traffic jam can be alleviated if all traffic signals are dynamically adjusted and optimized at different location and time period.
 Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.
 Our system is effective on simple traffic simulation, and thus won the 2017 National Technology and Research Scholarship presented by CTCI Foundation.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;https://Daikon-Sun.github.io/files/CTCI.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -37,8 +35,6 @@ Then, a series of five corresponding anime images is produced.
 In the second stage, we proceeded further by collecting more features from the dataset, and by feeding more complicated input sentence, desired feature is then learned by Conditional GAN.
 We were then able to synthesis anime character with glasses or no glasses, along with different hair styles.
 We had also learned the most commonly appeared 200 features from the dataset and generated relevant images.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -62,10 +58,6 @@ We had also learned the most commonly appeared 200 features from the dataset and
 &lt;/ul&gt;
 
 &lt;p&gt;My program ranks top 5% among more than a hundred of students.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -87,10 +79,6 @@ We had also learned the most commonly appeared 200 features from the dataset and
 &lt;li&gt;Blob removal: rule-based method.&lt;/li&gt;
 &lt;li&gt;Ghost removal: EA Khan&amp;rsquo;s method.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Link to our &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw1&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to our &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -110,20 +98,7 @@ The following feature-based process is run through in the order to create panora
 &lt;li&gt;Image stitching: bundle adjustment.&lt;/li&gt;
 &lt;li&gt;Blending: multi-band blending.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/VFX2017/tree/master/hw2&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>LuLuEC</title>
-      <link>https://Daikon-Sun.github.io/luluec/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://Daikon-Sun.github.io/luluec/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -142,26 +117,20 @@ The four stages are sorted in the order as if in actual design flow:&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 3. Abacus-based Legalizer with exact cost for solving single-cell height legalization, &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-size:0.9em;&#34;&gt; 4. Efficient steiner tree construction based on spanning graphs. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;https://github.com/Daikon-Sun/PD2017&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; (including reports).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
-      <link>https://Daikon-Sun.github.io/project/pigo/</link>
+      <link>https://Daikon-Sun.github.io/project/pi_go/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/pigo/</guid>
+      <guid>https://Daikon-Sun.github.io/project/pi_go/</guid>
       <description>&lt;p&gt;We use two open source AlphaGo Zero re-implementation: &lt;a href=&#34;https://github.com/gcp/leela-zero&#34; target=&#34;_blank&#34;&gt;Leela-Zero&lt;/a&gt; and &lt;a href=&#34;https://github.com/Tencent/PhoenixGo&#34; target=&#34;_blank&#34;&gt;PhoenixGo&lt;/a&gt;, which are both super-human AI.
 An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen.
 If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the &lt;a href=&#34;https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html&#34; target=&#34;_blank&#34;&gt;GTP protocol (ver 2)&lt;/a&gt;.
 Otherwise, the user can play against a weaker version of AlphaGo Zero locally.
 A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;https://drive.google.com/open?id=1caNG0tRBhQVUOxDP0oUImphVO8APv0h6&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -172,6 +141,36 @@ A chatroom is also implemented so that two humans can play Go together.&lt;/p&gt
       
       <guid>https://Daikon-Sun.github.io/slither/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Equivalence Checking: Program-Building for Name Mapping</title>
+      <link>https://Daikon-Sun.github.io/project/luluec/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/luluec/</guid>
+      <description>
+
+&lt;p&gt;This project won the 3rd place in the Problem A at 2018 ICCAD CAD contest.&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In the ASIC design flow, implementation tools change the names of design components to
+comply with the implementation rules while still keeping the information to track the design
+intention.
+For example, tools change the name &amp;ldquo;a[0]&amp;rdquo; into &amp;ldquo;a_0_&amp;rdquo; to follow the rule: “no special
+character”.
+Meanwhile, name mapping plays an important role in verification tools because good
+name mapping can help verification tools efficiently and correctly verify designs.
+Humans can easily tell the mapping rules/relations, but it is difficult for machines/tools to solve the mapping automatically.&lt;/p&gt;
+
+&lt;h2 id=&#34;problem-formulation&#34;&gt;&lt;strong&gt;Problem Formulation&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In this contest, the problem formulation is program-building for name mapping.
+Contestants shall write a program that accepts a given set of mapping relations and generate a Python script.
+Then, the Python script can generate the same mapping result.
+The smaller size of the generated script is the better in this problem.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -187,10 +186,6 @@ Several algorithms have been proposed to tackle MAB problem, among them, algorit
 Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.
 In this paper, we survey starting from the original UCB [1], to improved versions UCBV [2], improved-UCB [3], and end at the state-of-the-art method [4].
 We also introduce the lower bound for a family of algorithms (consistent algorithms defined in [5]) and show the optimality of KL-UCB [6] in special case.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;technical_report.pdf&#34; target=&#34;_blank&#34;&gt;technical report&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;reference&#34;&gt;Reference:&lt;/h4&gt;
 
@@ -251,11 +246,6 @@ In this project, we discuss and compare different methods of visualization on va
 &lt;li&gt;Deep Generator Network (DGN): Use a pretrained image generator instead of hand-crafted priors.&lt;/li&gt;
 &lt;li&gt;Plug-and-Play Generative Networks (PPGN): Improve from DGN using denoising autoencoder to restrict the input-code space.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Link to the &lt;a href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to the
-&lt;a href=&#34;https://ntumlds.wordpress.com/2017/03/27/b03901056_%E5%9F%B9%E5%82%91%E8%88%87%E9%A0%86%E8%80%80&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

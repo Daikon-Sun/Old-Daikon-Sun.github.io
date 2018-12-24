@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://Daikon-Sun.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>AI Traffic Control System [CTCI Scholarship]</title>
       <link>https://Daikon-Sun.github.io/project/ctci/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
       <description>Due to the high population density and popular usage of private car in Taiwan, traffic jam is a serious problem in Taiwan&amp;rsquo;s major cities, especially Taipei, Tainan, and Kaohsiung. Most traffic jam can be alleviated if all traffic signals are dynamically adjusted and optimized at different location and time period. Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.</description>
@@ -49,8 +49,7 @@ The program performs the following processes:
       <guid>https://Daikon-Sun.github.io/project/hdr/</guid>
       <description>We assemble high dynamic range (HDR) images from a series of photographs under various exposures.
 The features we have implemented are:
- Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  Link to our code.
-Link to our report.</description>
+ Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  </description>
     </item>
     
     <item>
@@ -60,8 +59,7 @@ Link to our report.</description>
       
       <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
       <description>We construct panoramas from a series of photographs. The following feature-based process is run through in the order to create panoramas:
- Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  Link to the code.
-Link to the report.</description>
+ Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  </description>
     </item>
     
     <item>
@@ -79,11 +77,21 @@ Link to the report.</description>
     
     <item>
       <title>Playing Against AlphaGo Zero on Raspberry Pi</title>
-      <link>https://Daikon-Sun.github.io/project/pigo/</link>
+      <link>https://Daikon-Sun.github.io/project/pi_go/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://Daikon-Sun.github.io/project/pigo/</guid>
+      <guid>https://Daikon-Sun.github.io/project/pi_go/</guid>
       <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
+    </item>
+    
+    <item>
+      <title>Smart Equivalence Checking: Program-Building for Name Mapping</title>
+      <link>https://Daikon-Sun.github.io/project/luluec/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://Daikon-Sun.github.io/project/luluec/</guid>
+      <description>This project won the 3rd place in the Problem A at 2018 ICCAD CAD contest.
+Introduction In the ASIC design flow, implementation tools change the names of design components to comply with the implementation rules while still keeping the information to track the design intention. For example, tools change the name &amp;ldquo;a[0]&amp;rdquo; into &amp;ldquo;a_0_&amp;rdquo; to follow the rule: “no special character”. Meanwhile, name mapping plays an important role in verification tools because good name mapping can help verification tools efficiently and correctly verify designs.</description>
     </item>
     
     <item>
