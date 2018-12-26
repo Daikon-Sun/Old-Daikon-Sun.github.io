@@ -38,7 +38,7 @@
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
       <description>In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.
 The program performs the following processes:
- Parse a circuit description file in the AIGER format. Sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted. Perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fanins of an AND gate by a constant zero.</description>
+ Parse a circuit description file in the AIGER format. Sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted. Perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fan-ins of an AND gate by a constant zero.</description>
     </item>
     
     <item>
