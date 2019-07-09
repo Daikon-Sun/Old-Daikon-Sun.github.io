@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -12,8 +11,62 @@
     
     <url>
     
+      <loc>https://Daikon-Sun.github.io/</loc>
+      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/tags/ml-and-dl/</loc>
+      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/project/</loc>
+      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/tags/</loc>
+      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://Daikon-Sun.github.io/project/anime_gan/</loc>
       <lastmod>2018-11-03T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/tags/code/</loc>
+      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/tags/eda/</loc>
+      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -38,6 +91,15 @@
     
       <loc>https://Daikon-Sun.github.io/project/panorama/</loc>
       <lastmod>2018-11-03T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/tags/other/</loc>
+      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -100,6 +162,15 @@
     
     <url>
     
+      <loc>https://Daikon-Sun.github.io/publication_types/1/</loc>
+      <lastmod>2018-11-02T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://Daikon-Sun.github.io/publication/bus_routing/</loc>
       <lastmod>2018-11-02T00:00:00+08:00</lastmod>
     </url>
@@ -110,6 +181,15 @@
     
       <loc>https://Daikon-Sun.github.io/publication/wirelength_model/</loc>
       <lastmod>2018-11-02T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://Daikon-Sun.github.io/publication_types/</loc>
+      <lastmod>2018-11-02T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -156,88 +236,7 @@
     
     <url>
     
-      <loc>https://Daikon-Sun.github.io/publication_types/1/</loc>
-      <lastmod>2018-11-02T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://Daikon-Sun.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/tags/code/</loc>
-      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/tags/eda/</loc>
-      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/tags/ml-and-dl/</loc>
-      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/tags/other/</loc>
-      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/project/</loc>
-      <lastmod>2018-11-13T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/publication_types/</loc>
-      <lastmod>2018-11-02T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://Daikon-Sun.github.io/tags/</loc>
-      <lastmod>2018-11-03T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

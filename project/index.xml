@@ -18,7 +18,7 @@
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/ctci/</guid>
-      <description>Due to the high population density and popular usage of private car in Taiwan, traffic jam is a serious problem in Taiwan&amp;rsquo;s major cities, especially Taipei, Tainan, and Kaohsiung. Most traffic jam can be alleviated if all traffic signals are dynamically adjusted and optimized at different location and time period. Following the idea, we designed and implemented a low-cost and real-time traffic signal system on NVIDIA Jetson TK1 using Fast-RCNN to detected the traffic flow and reinforcement learning to train the traffic signal switching interval model.</description>
+      <description>Artificial Intelligence Traffic Control System: A Deep Learning Approach to Solve Structural Traffic Jam Problem</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/anime_gan/</guid>
-      <description>Our work includes two stages. In the first stage we trained the Conditional GAN with only hair color and eyes color features. Then, a series of five corresponding anime images is produced. In the second stage, we proceeded further by collecting more features from the dataset, and by feeding more complicated input sentence, desired feature is then learned by Conditional GAN. We were then able to synthesis anime character with glasses or no glasses, along with different hair styles.</description>
+      <description>Generate anime images from given input text by the well known text-to-image synthesis method: Conditional Generative Adversarial Network (Conditional GAN).</description>
     </item>
     
     <item>
@@ -36,9 +36,7 @@
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/fraig/</guid>
-      <description>In this project, I implemented a special circuit representation, FRAIG, from a circuit description file.
-The program performs the following processes:
- Parse a circuit description file in the AIGER format. Sweep out the gates that cannot be reached from primary outputs (excluding primary inputs). After this operation, all the gates that are originally “defined-but-not-used” will be deleted. Perform trivial circuit optimizations without altering the functionality, such as replacing a always-inverse fan-ins of an AND gate by a constant zero.</description>
+      <description>Implemented a special circuit representation, FRAIG, from a circuit description file, including parsing, sweeping, and circuit optimization.</description>
     </item>
     
     <item>
@@ -47,9 +45,7 @@ The program performs the following processes:
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/hdr/</guid>
-      <description>We assemble high dynamic range (HDR) images from a series of photographs under various exposures.
-The features we have implemented are:
- Image alignment: median threshold bitmap algorithm. HDR imaging: Paul Debevec&amp;rsquo;s method. Tone mapping: Erik Reinhard&amp;rsquo;s method. Exposure fusion: Tom Mertens&amp;rsquo; method. Blob removal: rule-based method. Ghost removal: EA Khan&amp;rsquo;s method.  </description>
+      <description>High dynamic range (HDR) imaging from a series of photographs under various exposures using OpenCV</description>
     </item>
     
     <item>
@@ -58,8 +54,7 @@ The features we have implemented are:
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/panorama/</guid>
-      <description>We construct panoramas from a series of photographs. The following feature-based process is run through in the order to create panoramas:
- Feature detection: scale invariant feature transform (SIFT) or multi-scale oriented patches (MSOP), with the aid of exhaustive search. Feature matching: exhaustive search and Haar’s method. Projection: cylindrical projection. Image stitching: bundle adjustment. Blending: multi-band blending.  </description>
+      <description>Image stitching (Panorama) to form a wide-angle view of physical space using OpenCV</description>
     </item>
     
     <item>
@@ -68,11 +63,7 @@ The features we have implemented are:
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/physical_design/</guid>
-      <description>Four stages in the flow of Physical Design for Nanometer ICs are included in this project. The four stages are sorted in the order as if in actual design flow:
-1. Fiduccia-Mattheyses heuristic for solving 2-way, balanced VLSI hypergraph partitioning, 
-2. B-star-tree with fast-simulated-annealing for solving fixed-outline floorplan problem, 
-3. Abacus-based Legalizer with exact cost for solving single-cell height legalization, 
-4. Efficient steiner tree construction based on spanning graphs.</description>
+      <description>Four stages in Physical Design: (1) Partitioning, (2) Floorplanning, (3) Legalization, and (4) Steiner-Tree Construction</description>
     </item>
     
     <item>
@@ -81,7 +72,7 @@ The features we have implemented are:
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/pi_go/</guid>
-      <description>We use two open source AlphaGo Zero re-implementation: Leela-Zero and PhoenixGo, which are both super-human AI. An user can play againt Alpha-Go on a Raspberry Pi (RPi) with a touch screen. If there is Internet connection, the RPi is connected to a server with GPU, and the communication is defined by the GTP protocol (ver 2). Otherwise, the user can play against a weaker version of AlphaGo Zero locally. A chatroom is also implemented so that two humans can play Go together.</description>
+      <description>Playing Against AlphaGo Zero on Raspberry Pi</description>
     </item>
     
     <item>
@@ -90,8 +81,7 @@ The features we have implemented are:
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/luluec/</guid>
-      <description>This project won the 3rd place in the Problem A at 2018 ICCAD CAD contest.
-Introduction In the ASIC design flow, implementation tools change the names of design components to comply with the implementation rules while still keeping the information to track the design intention. For example, tools change the name &amp;ldquo;a[0]&amp;rdquo; into &amp;ldquo;a_0_&amp;rdquo; to follow the rule: “no special character”. Meanwhile, name mapping plays an important role in verification tools because good name mapping can help verification tools efficiently and correctly verify designs.</description>
+      <description>Name mapping plays an important role in verification tools because good name mapping can help verification tools efficiently and correctly verify designs.</description>
     </item>
     
     <item>
@@ -100,7 +90,7 @@ Introduction In the ASIC design flow, implementation tools change the names of d
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/mpml/</guid>
-      <description>The most simple example of the exploration versus exploitation dilemma is the stochastic multi-armed bandits (MAB) problem. Several algorithms have been proposed to tackle MAB problem, among them, algorithms based on upper confidence bound are the most successful and widely-used. Since the first paper about UCB [1] came out in 2002, there have been an ongoing research (UCBV, improved-UCB, EUCBV, MOSS, OCUCB) in improving the strategy to obtain a lower regret bound.</description>
+      <description>Our survey starts from the original UCB, to improved versions (UCBV, improved-UCB), and end at the state-of-the-art method (EUCBV).</description>
     </item>
     
     <item>
@@ -109,7 +99,7 @@ Introduction In the ASIC design flow, implementation tools change the names of d
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
       
       <guid>https://Daikon-Sun.github.io/project/cnn_vis/</guid>
-      <description>Introduction Convolutional Neural Network (CNN) was first proposed by Y. LeCun et al. in 1989, who successfully trained a CNN for digit classification. However, not until 2012, when A.Krizhevsky et al. applied this architecture in ILSVRC-2012 competition and won the first place with top-5 error rates of 15.3% (which improves by more than 10% compared to previous feature engineering methods), did CNN take over computer vision. In recent years, the advance of GPU, the availability of much larger training sets, and better model regularization strategies all contribute to the dramatic improvement in performance.</description>
+      <description>In our final project, we organize all common methods to visualize and understand CNN on the pretrained and popular AlexNet, VGG, GooLeNet and ResNet. This enables us to build up understanding of CNN, but also shows that visualization is not enough for deep CNN.</description>
     </item>
     
   </channel>
